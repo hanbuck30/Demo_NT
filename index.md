@@ -1,14 +1,129 @@
+title: EEG Decoding During Inner Speech Using a Brain‑Machine Interface
 
-# EEG Decoding During Inner Speech Using a Brain-Machine Interface
+EEG Decoding During Inner Speech Using a Brain‑Machine Interface
 
-> Quick demo of imagined-speech synthesis from EEG signals.
-https://youtu.be/Hh71r9p2UAg
+Quick demo showcasing how our model decodes inner (imagined) speech from EEG signals and synthesises audible speech in real time.
 
-## Samples
-| Word | Original | EEG-Spoken | EEG-Imagined |
-|------|----------|------------|--------------|
-| **Hello** | <audio src="audio/hello_orig.wav" controls></audio> | <audio src="audio/hello_spoken.wav" controls></audio> | <audio src="audio/hello_imag.wav" controls></audio> |
+Protocol Video
 
-## Paper / Code
-- [[PDF] Our paper](link)
-- [[GitHub] Model code](link)
+Audio Samples
+
+No.
+
+Phrase
+
+Original Audio
+
+EEG‑Spoken Audio
+
+EEG‑Imagined Audio
+
+1
+
+go
+
+
+
+
+
+
+
+2
+
+go to school
+
+
+
+
+
+
+
+3
+
+home
+
+
+
+
+
+
+
+4
+
+I am home
+
+
+
+
+
+
+
+5
+
+time
+
+
+
+
+
+
+
+6
+
+today
+
+
+
+
+
+
+
+7
+
+today is sunday
+
+
+
+
+
+
+
+8
+
+wait
+
+
+
+
+
+
+
+9
+
+wait a second
+
+
+
+
+
+
+
+10
+
+what time is it
+
+
+
+
+
+
+
+ℹ️ Tip: Hover over the play button or use keyboard shortcuts for quick A/B comparisons between spoken‑speech and imagined‑speech reconstructions.
+
+Paper & Code
+
+Paper PDF: link
+
+GitHub Repository: link
+
+© 2025 BrainXAI Lab – Pukyong National University
