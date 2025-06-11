@@ -17,18 +17,17 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 
 | No. | Phrase               | Original&nbsp;Audio | EEG-Imagined&nbsp;Audio |
 |:--:|----------------------|--------------------|-----------------------|
-| 1 | **go**                | <audio controls src="audio/go_orig.wav"></audio> | <audio controls src="audio/go_imag.wav"></audio> |
-| 2 | **go to school**      | <audio controls src="audio/go_to_school_orig.wav"></audio> | <audio controls src="audio/go_to_school_imag.wav"></audio> |
-| 3 | **home**              | <audio controls src="audio/home_orig.wav"></audio> | <audio controls src="audio/home_imag.wav"></audio> |
-| 4 | **I am home**         | <audio controls src="audio/i_am_home_orig.wav"></audio> | <audio controls src="audio/i_am_home_imag.wav"></audio> |
-| 5 | **time**              | <audio controls src="audio/time_orig.wav"></audio> | <audio controls src="audio/time_imag.wav"></audio> |
-| 6 | **today**             | <audio controls src="audio/today_orig.wav"></audio> | <audio controls src="audio/today_imag.wav"></audio> |
-| 7 | **today is sunday**   | <audio controls src="audio/today_is_sunday_orig.wav"></audio> | <audio controls src="audio/today_is_sunday_imag.wav"></audio> |
-| 8 | **wait**              | <audio controls src="audio/wait_orig.wav"></audio> | <audio controls src="audio/wait_imag.wav"></audio> |
-| 9 | **wait a second**     | <audio controls src="audio/wait_a_second_orig.wav"></audio> | <audio controls src="audio/wait_a_second_imag.wav"></audio> |
-|10 | **what time is it**   | <audio controls src="audio/what_time_is_it_orig.wav"></audio> | <audio controls src="audio/what_time_is_it_imag.wav"></audio> |
+| 1 | **go**                | <audio controls src="audio/tar_go.wav"></audio> | <audio controls src="audio/pred_go.wav"></audio> |
+| 2 | **go to school**      | <audio controls src="audio/tar_gotoschool.wav"></audio> | <audio controls src="audio/pred_gotoschool.wav"></audio> |
+| 3 | **home**              | <audio controls src="audio/tar_home.wav"></audio> | <audio controls src="audio/pred_home.wav"></audio> |
+| 4 | **I am home**         | <audio controls src="audio/tar_iamhome.wav"></audio> | <audio controls src="audio/pred_iamhome.wav"></audio> |
+| 5 | **time**              | <audio controls src="audio/tar_time.wav"></audio> | <audio controls src="audio/pred_time.wav"></audio> |
+| 6 | **today**             | <audio controls src="audio/tar_today.wav"></audio> | <audio controls src="audio/today_imag.wav"></audio> |
+| 7 | **today is sunday**   | <audio controls src="audio/tar_todayissunday.wav"></audio> | <audio controls src="audio/pred_todayissunday.wav"></audio> |
+| 8 | **wait**              | <audio controls src="audio/tar_wait.wav"></audio> | <audio controls src="audio/pred_wait.wav"></audio> |
+| 9 | **wait a second**     | <audio controls src="audio/tar_waitasecond.wav"></audio> | <audio controls src="audio/pred_waitasecond.wav"></audio> |
+|10 | **what time is it**   | <audio controls src="audio/tar_whattimeisit.wav"></audio> | <audio controls src="audio/pred_whattimeisit.wav"></audio> |
 
-> ℹ️ **Tip:** Hover over the play button or use keyboard shortcuts for quick A/B comparisons between spoken-speech and imagined-speech reconstructions.
 
 ---
 
