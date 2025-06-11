@@ -5,7 +5,7 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 # EEG Decoding During Inner Speech Using a Brain-Machine Interface
 > Quick demo showcasing how our model decodes inner (imagined) speech from EEG signals and synthesises audible speech in offline.
 - We are using TTS based Model with various core model.
-- This version was Precisely timed segment.
+- This version was precisely timed segment.
 
 ---
 
@@ -36,7 +36,7 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 ## Paper & Code
 - **Paper PDF**: [link](#)
 - **GitHub Repository**: [link](#)
-
+> It's not finished yet.
 ---
 
 _© 2025 BrainXAI Lab – Pukyong National University_
