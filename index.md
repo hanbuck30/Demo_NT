@@ -39,16 +39,17 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 
 | No. | Phrase | Original&nbsp;Audio | EEG-Imagined&nbsp;Audio |
 |:--:|----------------------|--------------------|-----------------------|
-| 1 | **i_am_a_student_at_this_school** | <audio controls src="audio/tar_i_am_a_student_at_this_school.wav"></audio> | <audio controls src="audio/pred_i_am_a_student_at_this_school.wav"></audio> | 
-| 2 | **i_lost_my_notebook_yesterday** | <audio controls src="audio/tar_i_lost_my_notebook_yesterday.wav"></audio> | <audio controls src="audio/pred_i_lost_my_notebook_yesterday.wav"></audio> | 
-| 3 | **please_close_the_window_before_you_go** | <audio controls src="audio/tar_please_close_the_window_before_you_go.wav"></audio> | <audio controls src="audio/pred_please_close_the_window_before_you_go.wav"></audio> | 
-| 4 | **the_library_was_very_quiet** | <audio controls src="audio/tar_the_library_was_very_quiet.wav"></audio> | <audio controls src="audio/pred_the_library_was_very_quiet.wav"></audio> | 
-| 5 | **we_played_baseball_at_the_park** | <audio controls src="audio/tar_we_played_baseball_at_the_park.wav"></audio> | <audio controls src="audio/pred_we_played_baseball_at_the_park.wav"></audio> | 
-| 6 | **he gave me information about the rule** | <audio controls src="audio/tar_he gave me information about the rule.wav"></audio> | <audio controls src="audio/pred_he gave me information about the rule.wav"></audio> | 
-| 7 | **i saved document on the desktop** | <audio controls src="audio/tar_i saved document on the desktop.wav"></audio> | <audio controls src="audio/pred_i saved document on the desktop.wav"></audio> | 
-| 8 | **i used a dictionary to find the word** | <audio controls src="audio/tar_i used a dictionary to find the word.wav"></audio> | <audio controls src="audio/pred_i used a dictionary to find the word.wav"></audio> | 
-| 9 | **she waited for me near the airport** | <audio controls src="audio/tar_she waited for me near the airport.wav"></audio> | <audio controls src="audio/pred_she waited for me near the airport.wav"></audio> |
-|10 | **the classroom was empty when i arrived** | <audio controls src="audio/tar_the classroom was empty when i arrived.wav"></audio> | <audio controls src="audio/pred_the classroom was empty when i arrived.wav"></audio> |
+| 1 | **I am a student at this school** | <audio controls src="audio/tar_iamastudentatthisschool.wav"></audio> | <audio controls src="audio/pred_iamastudentatthisschool.wav"></audio> | 
+| 2 | **I lost my notebook yesterday** | <audio controls src="audio/tar_ilostmynotebookyesterday.wav"></audio> | <audio controls src="audio/pred_ilostmynotebookyesterday.wav"></audio> | 
+| 3 | **please close the window before you go** | <audio controls src="audio/tar_pleaseclosethewindowbeforeyougo.wav"></audio> | <audio controls src="audio/pred_pleaseclosethewindowbeforeyougo.wav"></audio> | 
+| 4 | **the library was very quiet** | <audio controls src="audio/tar_thelibrarywasveryquiet.wav"></audio> | <audio controls src="audio/pred_thelibrarywasveryquiet.wav"></audio> | 
+| 5 | **we played baseball at the park** | <audio controls src="audio/tar_weplayedbaseballatthepark.wav"></audio> | <audio controls src="audio/pred_weplayedbaseballatthepark.wav"></audio> | 
+| 6 | **he gave me information about the rule** | <audio controls src="audio/tar_hegavemeinformationabouttherule.wav"></audio> | <audio controls src="audio/pred_hegavemeinformationabouttherule.wav"></audio> | 
+| 7 | **I saved document on the desktop** | <audio controls src="audio/tar_isaveddocumentonthedesktop.wav"></audio> | <audio controls src="audio/pred_isaveddocumentonthedesktop.wav"></audio> | 
+| 8 | **I used a dictionary to find the word** | <audio controls src="audio/tar_iusedadictionarytofindtheword.wav"></audio> | <audio controls src="audio/pred_iusedadictionarytofindtheword.wav"></audio> | 
+| 9 | **she waited for me near the airport** | <audio controls src="audio/tar_shewaitedformenear theairport.wav"></audio> | <audio controls src="audio/pred_shewaitedformenear theairport.wav"></audio> |
+|10 | **the classroom was empty when i arrived** | <audio controls src="audio/tar_theclassroomwasemptywheniarrived.wav"></audio> | <audio controls src="audio/pred_theclassroomwasemptywheniarrived.wav"></audio> |
+
         
 </td>
 </tr>
