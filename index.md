@@ -13,11 +13,9 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
         title="Protocol video" frameborder="0" allowfullscreen></iframe>
 
 ---
-<table>
-<tr>
-<td>
-        
-## Short Phrases
+## Audio Samples (Short Phrases)
+
+> ※ This section presents the results of **400 ms window realtime streaming** decoding.
 
 | No. | Phrase               | Original&nbsp;Audio | EEG-Imagined&nbsp;Audio |
 |:--:|----------------------|--------------------|-----------------------|
@@ -32,10 +30,10 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 | 9 | **wait a second**     | <audio controls src="audio/tar_waitaseconds.wav"></audio> | <audio controls src="audio/pred_waitaseconds.wav"></audio> |
 |10 | **what time is it**   | <audio controls src="audio/tar_whattimeisit.wav"></audio> | <audio controls src="audio/pred_whattimeisit.wav"></audio> |
 
-</td>
-<td>
-        
-## Full Sentences
+
+## Audio Samples (Full Sentences)
+
+> ※ This section presents the results after applying **LLM-based text correction** and **speaker-adapted TTS correction**.
 
 | No. | Phrase | Original&nbsp;Audio | EEG-Imagined&nbsp;Audio |
 |:--:|----------------------|--------------------|-----------------------|
@@ -49,11 +47,6 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 | 8 | **I used a dictionary to find the word** | <audio controls src="audio/tar_iusedadictionarytofindtheword.wav"></audio> | <audio controls src="audio/pred_iusedadictionarytofindtheword.wav"></audio> | 
 | 9 | **she waited for me near the airport** | <audio controls src="audio/tar_shewaitedformenear theairport.wav"></audio> | <audio controls src="audio/pred_shewaitedformenear theairport.wav"></audio> |
 |10 | **the classroom was empty when i arrived** | <audio controls src="audio/tar_theclassroomwasemptywheniarrived.wav"></audio> | <audio controls src="audio/pred_theclassroomwasemptywheniarrived.wav"></audio> |
-
-        
-</td>
-</tr>
-</table>
 
 ---
 
