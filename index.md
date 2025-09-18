@@ -51,9 +51,9 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 ---
 
 ## Paper & Code
+> ※ It's not finished yet.
 - **Paper PDF**: [link](#)
 - **GitHub Repository**: [link](#)
-> It's not finished yet.
 ---
 
 _© 2025 BrainXAI Lab – Pukyong National University_
