@@ -45,7 +45,7 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 | 6 | **he gave me information about the rule** | <audio controls src="audio/tar_hegavemeinformationabouttherule.wav"></audio> | <audio controls src="audio/pred_hegavemeinformationabouttherule.wav"></audio> | 
 | 7 | **I saved document on the desktop** | <audio controls src="audio/tar_isaveddocumentonthedesktop.wav"></audio> | <audio controls src="audio/pred_isaveddocumentonthedesktop.wav"></audio> | 
 | 8 | **I used a dictionary to find the word** | <audio controls src="audio/tar_iusedadictionarytofindtheword.wav"></audio> | <audio controls src="audio/pred_iusedadictionarytofindtheword.wav"></audio> | 
-| 9 | **she waited for me near the airport** | <audio controls src="audio/tar_shewaitedformenear theairport.wav"></audio> | <audio controls src="audio/pred_shewaitedformenear theairport.wav"></audio> |
+| 9 | **she waited for me near the airport** | <audio controls src="audio/tar_shewaitedformeneartheairport.wav"></audio> | <audio controls src="audio/pred_shewaitedformenear theairport.wav"></audio> |
 |10 | **the classroom was empty when i arrived** | <audio controls src="audio/tar_theclassroomwasemptywheniarrived.wav"></audio> | <audio controls src="audio/pred_theclassroomwasemptywheniarrived.wav"></audio> |
 
 ---
