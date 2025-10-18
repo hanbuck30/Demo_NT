@@ -15,7 +15,7 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 ---
 ## Audio Samples (Short Phrases)
 
-> ※ This section presents the results of **400 ms window realtime streaming** decoding.
+> ※ This section presents the results of **400 ms window realtime streaming simulation** decoding.
 
 | No. | Phrase               | Original&nbsp;Audio | EEG-Imagined&nbsp;Audio |
 |:--:|----------------------|--------------------|-----------------------|
