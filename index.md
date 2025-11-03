@@ -1,3 +1,28 @@
+<style>
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+th, td {
+  word-wrap: break-word;
+  white-space: normal;
+}
+audio {
+  width: 160px;
+  max-width: 100%;
+}
+table th:first-child,
+table td:first-child {
+  width: 48px;
+  max-width: 60px;
+  white-space: nowrap;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  audio { width: 120px; }
+}
+</style>
+
 ---
 title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 ---
@@ -20,7 +45,7 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 > - Streaming (real-time simulation with 400 ms window)
 > - TTS (LLM-based text correction and speaker-adapted TTS)
 
-| No. | Phrase | Original&nbsp;Audio | EEG-Imagined&nbsp;Audio | Streaming&nbsp;Audio | TTS&nbsp;Audio | 
+| No. | Phrase | Original | EEG-Imagined | Streaming | TTS | 
 |:--:|----------------------|--------------------|-----------------------|-----------------------|-----------------------|
 | 1 | **go** | <audio controls src="audio/ver3/sub003/target/0.wav"/> | <audio controls src="audio/ver3/sub003/pred/generator/0.wav"/> | <audio controls src="audio/ver3/sub003/pred/streaming/0.wav"/> | <audio controls src="audio/ver3/sub003/pred/tts/0.wav"/> | 
 | 2 | **home** | <audio controls src="audio/ver3/sub003/target/1.wav"/> | <audio controls src="audio/ver3/sub003/pred/generator/1.wav"/> | <audio controls src="audio/ver3/sub003/pred/streaming/1.wav"/> | <audio controls src="audio/ver3/sub003/pred/tts/1.wav"/> | 
@@ -39,7 +64,7 @@ title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
 > - Original (recorded speech)
 > - TTS (LLM-based text correction and speaker-adapted TTS)
 
-| No. | Phrase | Original&nbsp;Audio(sub6) | TTS&nbsp;Audio | Original&nbsp;Audio(sub12) | TTS&nbsp;Audio | 
+| No. | Phrase | Original(sub6) | TTS | Original(sub12) | TTS | 
 |:--:|----------------------|--------------------|-----------------------|-----------------------|-----------------------|
 | 1 | **airport** | <audio controls src="audio/ver4/sub006/target/10.wav"/> | <audio controls src="audio/ver4/sub006/pred/tts/10.wav"/> |  <audio controls src="audio/ver4/sub012/target/10.wav"/> | <audio controls src="audio/ver4/sub012/pred/tts/10.wav"/> | 
 | 2 | **baseball** | <audio controls src="audio/ver4/sub006/target/11.wav"/> | <audio controls src="audio/ver4/sub006/pred/tts/11.wav"/> |  <audio controls src="audio/ver4/sub012/target/11.wav"/> | <audio controls src="audio/ver4/sub012/pred/tts/11.wav"/> | 
