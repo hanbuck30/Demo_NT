@@ -23,10 +23,6 @@ table td:first-child {
 }
 </style>
 
----
-title: EEG Decoding During Inner Speech Using a Brain-Machine Interface
----
-
 # EEG Decoding During Inner Speech Using a Brain-Machine Interface
 > Quick demo showcasing how our model decodes inner (imagined) speech from EEG signals and synthesises audible speech in offline.
 - This version was precisely timed segment.
