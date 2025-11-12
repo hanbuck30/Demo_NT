@@ -18,44 +18,6 @@ table td:first-child {
   white-space: nowrap;
   text-align: center;
 }
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 24px;
-  width: 100%;
-  margin-top: 16px;
-}
-.video-card {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.video-card p {
-  margin: 0;
-  font-weight: 600;
-}
-.video-wrapper {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
-  border-radius: 12px;
-  overflow: hidden;
-  background: #000;
-}
-.video-wrapper iframe {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-@media (max-width: 900px) {
-  audio { width: 120px; }
-  .video-grid {
-    gap: 16px;
-    grid-template-columns: 1fr;
-  }
-}
 </style>
 
 # EEG Decoding During Inner Speech Using a Brain-Machine Interface
@@ -66,22 +28,10 @@ table td:first-child {
 
 ## Protocol Video
 
-<div class="video-grid">
-  <div class="video-card">
-    <p>Demo</p>
-    <div class="video-wrapper">
-      <iframe src="https://youtu.be/oYGz_XE0T4c"
-              title="Protocol video" allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="video-card">
-    <p>Protocol</p>
-    <div class="video-wrapper">
-      <iframe src="https://youtu.be/XE1uSoxDvAQ"
-              title="Protocol video" allowfullscreen /></iframe>
-    </div>
-  </div>
-</div>
+| Demo | Protocol |
+| --- | --- |
+| <iframe width="360" height="203" src="https://youtu.be/oYGz_XE0T4c" title="Demo video" frameborder="0" allowfullscreen></iframe> | <iframe width="360" height="203" src="https://youtu.be/XE1uSoxDvAQ" title="Protocol video" frameborder="0" allowfullscreen></iframe> |
+
 
 ---
 ## 1. Audio Samples (Short Phrases)
