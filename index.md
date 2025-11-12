@@ -28,9 +28,11 @@ table td:first-child {
 
 ## Protocol Video
 
-| Demo | Protocol |
-| --- | --- |
-| <iframe width="360" height="203" src="https://youtu.be/oYGz_XE0T4c" title="Demo video" frameborder="0" allowfullscreen></iframe> | <iframe width="360" height="203" src="https://youtu.be/XE1uSoxDvAQ" title="Protocol video" frameborder="0" allowfullscreen></iframe> |
+**Demo**<br/>
+<iframe width="720" height="405" src="https://youtu.be/oYGz_XE0T4c" title="Demo video" frameborder="0" allowfullscreen></iframe><br/><br/>
+
+**Protocol**<br/>
+<iframe width="720" height="405" src="https://youtu.be/XE1uSoxDvAQ" title="Protocol video" frameborder="0" allowfullscreen></iframe>
 
 
 ---
