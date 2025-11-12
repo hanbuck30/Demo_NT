@@ -18,8 +18,43 @@ table td:first-child {
   white-space: nowrap;
   text-align: center;
 }
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  width: 100%;
+  margin-top: 16px;
+}
+.video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.video-card p {
+  margin: 0;
+  font-weight: 600;
+}
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+}
+.video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 @media (max-width: 900px) {
   audio { width: 120px; }
+  .video-grid {
+    gap: 16px;
+    grid-template-columns: 1fr;
+  }
 }
 </style>
 
@@ -30,8 +65,23 @@ table td:first-child {
 ---
 
 ## Protocol Video
-<iframe width="720" height="405" src="https://www.youtube.com/embed/Hh71r9p2UAg"
-        title="Protocol video" frameborder="0" allowfullscreen></iframe>
+
+<div class="video-grid">
+  <div class="video-card">
+    <p>Demo</p>
+    <div class="video-wrapper">
+      <iframe src="https://youtu.be/oYGz_XE0T4c"
+              title="Protocol video" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="video-card">
+    <p>Protocol</p>
+    <div class="video-wrapper">
+      <iframe src="https://youtu.be/XE1uSoxDvAQ"
+              title="Protocol video" allowfullscreen /></iframe>
+    </div>
+  </div>
+</div>
 
 ---
 ## 1. Audio Samples (Short Phrases)
@@ -41,7 +91,7 @@ table td:first-child {
 > - Streaming (real-time simulation with 400 ms window)
 > - TTS (LLM-based text correction and speaker-adapted TTS)
 
-| No. | Phrase | Original | EEG-Imagined | Streaming | TTS | 
+| No. | Phrase | Original(sub3) | EEG-Imagined | Streaming | TTS | 
 |:--:|----------------------|--------------------|-----------------------|-----------------------|-----------------------|
 | 1 | **go** | <audio controls src="audio/ver3/sub003/target/0.wav"/> | <audio controls src="audio/ver3/sub003/pred/generator/0.wav"/> | <audio controls src="audio/ver3/sub003/pred/streaming/0.wav"/> | <audio controls src="audio/ver3/sub003/pred/tts/0.wav"/> | 
 | 2 | **home** | <audio controls src="audio/ver3/sub003/target/1.wav"/> | <audio controls src="audio/ver3/sub003/pred/generator/1.wav"/> | <audio controls src="audio/ver3/sub003/pred/streaming/1.wav"/> | <audio controls src="audio/ver3/sub003/pred/tts/1.wav"/> | 
