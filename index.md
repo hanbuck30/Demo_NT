@@ -29,10 +29,10 @@ table td:first-child {
 ## Protocol Video
 
 **Demo**<br/>
-<iframe width="720" height="405" src="https://youtu.be/oYGz_XE0T4c" title="Demo video" frameborder="0" allowfullscreen></iframe><br/><br/>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/oYGz_XE0T4c" title="Demo video" frameborder="0" allowfullscreen></iframe><br/><br/>
 
 **Protocol**<br/>
-<iframe width="720" height="405" src="https://youtu.be/XE1uSoxDvAQ" title="Protocol video" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/XE1uSoxDvAQ" title="Protocol video" frameborder="0" allowfullscreen></iframe>
 
 
 ---
